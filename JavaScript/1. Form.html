@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Registration Form for Javascript</title>
+        <script src="ValidateForm.js"></script>
+    </head>
+    <body>
+        <form action="#" onsubmit="return validateForm()">
+          <table align="center">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" id="First_Name"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" id="Last_Name"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" id="emailid"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="text" id="password1"/>
+                </td>
+            </tr>
+            <tr>
+                <td>RE-Enter Paswword</td>
+                <td>
+                    <input type="" id="password2"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile No</td>
+                <td>
+                    <input type="text" id="mb">
+                </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td>
+                    <input type="date" id="dob1">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" id="genmale" value="male">Male
+                    <input type="radio" name="gender" id="genfemale" value="female">Female
+                    <input type="radio" name="gender" id="geno" value="other">Other
+                </td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <input type="checkbox" value="ba" id="q1">BA
+                    <input type="checkbox" value="b.sc" id="q2">B.sc
+                    <input type="checkbox" value="b.com" id="q3">B.com
+                </td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td>
+                    <select id="cat">
+                        <option value="">Select</option>
+                        <option value="general">General</option>
+                        <option value="obc">OBC</option>
+                        <option value="sc/st">Sc/St</option>
+                        <option value="menoraty">Minoraty</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Image Upload</td>
+                <td>
+                    <input type="file" id="img">
+                </td>
+            </tr>
+            <tr>
+                <td>About Us</td>
+                <td>
+                    <textarea id="txtarea" col="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" id="rem">Remember Me</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Register" id="btn_submit"/>
+                </td>
+            </tr>
+          </table>
+        </form>
+    </body>
+</html>
